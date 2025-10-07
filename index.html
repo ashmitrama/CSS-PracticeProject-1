@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PracticeProject-1</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bitcount+Ink:wght@100..900&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Delius&family=Knewave&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Limelight&family=Luckiest+Guy&family=Smythe&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/6.6.6/css/flag-icons.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+  <main>
+    <div class="cursor"></div>
+    <nav>
+      <div id="n-left">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIMUJtToze84xQpaVVxiMpdFXf3bdR08ekb4qdd40td1rX-IDDI_SzKLMQRBHWbPDoo8E&usqp=CAU"
+          alt="">
+      </div>
+      <div id="n-mid">
+        <a href="">Web Shop</a>
+        <a href="">About Us</a>
+        <a href="">News</a>
+        <a href="">Bag</a>
+      </div>
+      <div id="n-right">
+        <span class="fi fi-us"></span>
+        <p>En</p>
+      </div>
+    </nav>
+    <div id="hero">
+      <div id="left">
+        <h1>
+          <span id="y">2025/</span>
+          <br>
+          <span id="i">INTRODUCING</span>
+          <br>
+          <span id="c">COLLECTION</span>
+          <br>
+          <span id="u">¯</span>
+        </h1>
+        <p>Uniquely catering to your every need. <br>
+          We're different no matter how you put it.</p>
+        <h3>
+          <span>All</span> <br>
+          <span>TOP & SHIRTS</span> <br>
+          <span>DENIM</span> <br>
+          <span>KNITWEAR</span> <br>
+          <span>SHOTS</span>
+        </h3>
+      </div>
+      <div id="mid">
+        <img src="https://i.pinimg.com/736x/ca/0e/ad/ca0ead0376c6d51eaac6fa78ae177031.jpg" id="img1">
+        <img src="https://i.pinimg.com/736x/a7/ca/6d/a7ca6dc64e7d35b5f8f7b133e51ad969.jpg" id="img2">
+        <img src="https://i.pinimg.com/736x/8b/50/84/8b50842bb02321590607fa71d5b29e7a.jpg" id="img3">
+        <div id="pop">
+          <i class="ri-arrow-left-up-long-line"></i>
+        </div>
+      </div>
+      <!-- <div id="right">
+        <p id="p1">Workshop Exclusinve</p>
+        <p id="p2">Sale</p>
+        <p id="p3">New Collection</p>
+      </div> -->
+    </div>
+  </main>
+  <script>
+    const cursor = document.querySelector(".cursor");
+
+    document.addEventListener("mousemove", (e) => {
+      cursor.style.top = `${e.clientY}px`;
+      cursor.style.left = `${e.clientX}px`;
+    });
+  </script>
+</body>
+
+</html>
